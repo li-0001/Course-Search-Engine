@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+		<title>Search Course</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 class="header">Search Course</h1>
+		<div class="search-box">
+			<input id="search-input" type="text" placeholder="E.g. CPSC 110">
+			<button id="search-button" type="submit">Search</button>
+			<h3 id="error-message" class="error-message" ></h3>
+			<table>
+				<thead>
+				<tr>
+					<th>Instructor</th>
+					<th>Year</th>
+					<th>Average</th>
+					<th>Pass</th>
+					<th>Fail</th>
+				</tr>
+				</thead>
+				<tbody id="search-result"></tbody>
+			</table>
+			<script src="search_course.js"></script>
+		</div>
+		<a href="index.html" class="home">← Home</a>
+	</body>
+</html>

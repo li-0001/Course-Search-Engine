@@ -1,0 +1,16 @@
+{
+  "title": "where is not an object",
+  "input": {
+    "WHERE": 100,
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept",
+        "courses_id",
+        "courses_avg"
+      ],
+      "ORDER": "courses_avg"
+    }
+  },
+  "errorExpected": true,
+  "with": "InsightError"
+}

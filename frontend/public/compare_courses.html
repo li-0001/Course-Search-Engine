@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+		<title>Compare Courses</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 class="header">Compare Courses</h1>
+			<div class="compare-box">
+				<input id="compare-input1" type="text" placeholder="E.g. CPSC 110">
+				<input id="compare-input2" type="text" placeholder="E.g. CPSC 210">
+				<button id="compare-button" type="submit">Compare</button>
+				<h3 id="error-message" class="error-message" ></h3>
+				<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+				<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+				<script src="compare_courses.js"></script>
+			</div>
+		<a href="index.html" class="home">← Home</a>
+	</body>
+</html>

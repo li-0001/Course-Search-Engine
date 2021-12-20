@@ -1,0 +1,155 @@
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 35%;
+	border: 5px solid #327ba8;
+	border-radius: 8px;
+	box-shadow: 8px 8px lightsteelblue;
+}
+
+.center button {
+	background-color: #327ba8;
+	color: white;
+	width: 65%;
+	border: none;
+	border-radius: 8px;
+	padding: 13px 0;
+	margin: 38px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+
+.center button:hover {
+	background-color: #4f97c4;
+	cursor: pointer;
+}
+
+.header{
+	text-align: center;
+	font-size: 38px;
+	font-family: "Arial Rounded MT Bold";
+	color: #206691;
+}
+
+.button {
+	background-color: #327ba8;
+	color: white;
+	width: 65%;
+	border: none;
+	border-radius: 8px;
+	padding: 13px 0;
+	margin: 38px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+
+.button:hover {
+	background-color: #4f97c4;
+	cursor: pointer;
+}
+
+.search-box {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 50%;
+}
+
+.search-box input {
+	width: 65%;
+	padding: 12px 0;
+	border: 5px solid #327ba8;
+	border-radius: 8px;
+	font-size: 15px;
+}
+
+.search-box button {
+	background-color: #327ba8;
+	color: white;
+	width: 33%;
+	border: none;
+	border-radius: 8px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.search-box button:hover {
+	background-color: #4f97c4;
+	cursor: pointer;
+}
+
+.search-box table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.search-box td, th {
+	border: 1px solid #4f97c4;
+	padding: 8px;
+}
+
+.search-box th {
+	font-weight: bold;
+	background: #fff;
+}
+
+.search-box tr:nth-child(odd) {
+	background: #cdddf7;
+}
+
+.compare-box {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 50%;
+}
+.compare-box input {
+	width: 30%;
+	padding: 12px 0;
+	border: 5px solid #327ba8;
+	border-radius: 8px;
+	font-size: 15px;
+}
+
+.compare-box button {
+	margin: auto;
+	background-color: #327ba8;
+	color: white;
+	width: 30%;
+	border: none;
+	border-radius: 8px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.compare-box button:hover {
+	background-color: #4f97c4;
+	cursor: pointer;
+}
+
+.error-message {
+	color: indianred;
+}
+
+a {
+	font-family: "Arial";
+}
+
+.home {
+	position: absolute;
+	top: 3%;
+	right: 3%;
+	font-size: 18px;
+	color: #0e4669;
+}
+
